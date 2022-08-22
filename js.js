@@ -14,6 +14,7 @@ const getItem = () => {
     .catch(err => console.log(err));
 };
 
+
 searchInput.addEventListener('input', e => {
     const element = e.target.value.toLowerCase()
 
