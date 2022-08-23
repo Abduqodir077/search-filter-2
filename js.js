@@ -52,4 +52,5 @@ const viewResults = (arr) => {
     items.innerHTML = output;
 }
 
+
 document.addEventListener("DOMContentLoaded",getItem);
